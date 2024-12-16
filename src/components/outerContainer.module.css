@@ -1,0 +1,13 @@
+.outerCon {
+  display: flex;
+}
+@media screen and (min-width: 1046px) {
+  .outerCon {
+    margin: 0 50px;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .outerCon {
+    margin: 0 80px;
+  }
+}

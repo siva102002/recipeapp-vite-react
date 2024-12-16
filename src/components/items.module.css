@@ -1,0 +1,38 @@
+.itemContainer {
+  max-width: 350px;
+  margin: 25px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.image {
+  width: 100%;
+  height: auto;
+}
+.content {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  /* width: 250px; */
+  margin: 0 auto;
+}
+.title {
+  font-weight: 600;
+  color: #393846;
+  font-size: 1em;
+}
+.itemButton {
+  background-color: #29bb89;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
