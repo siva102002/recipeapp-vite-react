@@ -1,3 +1,4 @@
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import styles from "./items.module.css";
 export default function Items({ food, setFoodId }) {
   return (
@@ -7,14 +8,16 @@ export default function Items({ food, setFoodId }) {
         <p className={styles.title}>{food.title}</p>
       </div>
       <div className={styles.buttonContainer}>
-        <button
-          onClick={() => {
-            setFoodId(food.id);
-          }}
-          className={styles.itemButton}
-        >
-          View Recipe
-        </button>
+        <AnchorLink href="#details">
+          <button
+            onClick={() => {
+              setFoodId(food.id);
+            }}
+            className={styles.itemButton}
+          >
+            View Recipe
+          </button>
+        </AnchorLink>
       </div>
     </div>
   );

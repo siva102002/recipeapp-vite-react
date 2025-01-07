@@ -11,3 +11,8 @@
     margin: 0 80px;
   }
 }
+@media screen and (max-width: 500px) {
+  .outerCon {
+    flex-direction: column;
+  }
+}

@@ -19,7 +19,7 @@ export default function FoodDetails({ foodId }) {
     foodRecipe();
   }, [foodId]);
   return (
-    <div>
+    <div id="details">
       <div className={styles.recipeCard}>
         <h1 className={styles.recipeTitle}>{food.title}</h1>
         <img className={styles.recipeImage} src={food.image} alt="" />
